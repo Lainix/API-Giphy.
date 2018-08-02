@@ -1,0 +1,31 @@
+body{
+  background-color: #CEF4FF;
+  background-image: url("../assets/img/fondo.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+.container{
+  width: 65%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: transparent;
+  padding: 4%;
+}
+.container img{
+  max-width: 250px;
+  padding: 4px;
+}
+#elementos{
+  padding: 2%;
+}
+#elementos .elemento{
+    margin: 5px;
+    display: inline-flex;
+    position: relative;
+    max-width: 200px;
+    height: 200px;
+    border-radius: 10px;
+  }
